@@ -163,5 +163,5 @@ def generate_teaser_figure(output_path):
     print(f"[Teaser] Successfully generated perfectly-padded {output_path}")
 
 if __name__ == '__main__':
-    out = Path("/Users/davide/Developer/coursework/IE5005/mini_project/figures/fig0_teaser_pipeline.png")
+    out = Path(__file__).resolve().parents[2] / "figures" / "fig0_teaser_pipeline.png"
     generate_teaser_figure(out)

@@ -1,4 +1,4 @@
-# Empirical Customer Value Dynamics and Multi-Channel Recommendation in Transnational E-Commerce
+# RecSys-RRF-BGNBD-Stacking: Multi-Channel Recommendation & Probabilistic CLV Stacking
 
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![Conference Paper](https://img.shields.io/badge/Paper-IEEE%20%2F%20ACM%20Transactions-red.svg)](IE5005_Mini_Project_Paper_Chen_Davide.pdf)
@@ -144,7 +144,7 @@ This repository delivers an end-to-end industrial data analytics, machine learni
 ## 🏗️ Repository Architecture & Engineering Design
 
 ```text
-transnational-ecommerce-analytics/
+recsys-rrf-bgnbd-stacking/
 ├── IE5005_Mini_Project_Paper_Chen_Davide.pdf   # 8-page IEEE/ACM Transactions conference paper
 ├── paper.tex                                  # Camera-ready LaTeX manuscript
 ├── references.bib                             # Complete academic BibTeX bibliography
@@ -183,8 +183,8 @@ transnational-ecommerce-analytics/
 
 ```bash
 # Clone the repository
-git clone https://github.com/davidechen135/transnational-ecommerce-analytics.git
-cd transnational-ecommerce-analytics
+git clone https://github.com/davidechen135/recsys-rrf-bgnbd-stacking.git
+cd recsys-rrf-bgnbd-stacking
 
 # Install dependencies (Python 3.12 recommended)
 pip install -r requirements.txt
@@ -223,7 +223,7 @@ If you find this work, empirical methodology, or benchmark codebase useful in yo
   author={Chen, Davide},
   booktitle={IE5005 Applied Data Analytics for Industrial Engineers, National University of Singapore (NUS)},
   year={2026},
-  url={https://github.com/davidechen135/transnational-ecommerce-analytics}
+  url={https://github.com/davidechen135/recsys-rrf-bgnbd-stacking}
 }
 ```
 
