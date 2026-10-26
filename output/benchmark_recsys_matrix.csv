@@ -1,0 +1,5 @@
+Model,HitRate@5 (%),HitRate@10 (%),MRR,Catalog Coverage (%),Theoretical Paradigm
+Baseline: Popularity (Top Sellers),3.26%,4.85%,0.0176,0.95%,Heuristic Frequency (No Context)
+Lecture 8: Apriori Association Rules,2.82%,4.90%,0.0192,44.70%,Pairwise Co-occurrence & Lift
+Alternative: Matrix Factorization (SVD),9.66%,14.18%,0.0652,60.69%,Linear Dimensionality Reduction
+Frontier SOTA: Item2Vec (Skip-Gram Neural Embedding),6.27%,9.36%,0.0402,74.59%,Continuous Latent Semantic Space

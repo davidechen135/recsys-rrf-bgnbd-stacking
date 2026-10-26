@@ -1,0 +1,7 @@
+Category,Affected Column,Evidence,Affected Rows,Business Impact
+Cancellations,"InvoiceNo, Quantity","InvoiceNo starting with 'C' (9,288 rows), negative quantities","9,288 (1.71%)",Distorts purchasing volume; must be partitioned into return risk analysis.
+Damaged Stock / Write-offs,"Quantity, UnitPrice, Description","Negative quantities without 'C' prefix (1,336 rows), UnitPrice=0","1,336 (0.25%)",Warehouse write-offs and inventory reconciliations; corrupts consumer demand models.
+Non-commercial Pricing / Bad Debt,UnitPrice,"Zero or negative prices (2,517 rows), min: -£11,062.06","2,517 (0.46%)",Zero and negative unit prices distort revenue calculations and Average Order Value.
+Missing Customer Identifiers,CustomerID,"Null CustomerID in 135,080 rows","135,080 (24.93%)",Anonymous guest checkout; valid for aggregate GMV but cannot track repeat LTV.
+Non-merchandise Overhead Codes,"StockCode, Description","Operational codes like POST, D, M, BANK CHARGES, CRUK","2,766 rows (0.51%)",Pollutes product-level association and basket cross-selling recommendation models.
+Exact Duplicate Records,All attributes identical,"Identical duplicate transactions logged (5,268 rows)","5,268 (0.97%)","Artificially double-counts revenue, quantity, and transaction frequencies."

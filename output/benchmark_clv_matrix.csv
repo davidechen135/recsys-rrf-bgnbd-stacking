@@ -1,0 +1,6 @@
+Model,Holdout MAE (£),Holdout RMSE (£),Spearman Rank Correlation (ρ),Top-Decile Precision (%),Model Paradigm
+Lecture 8: K-Means Segmentation (Cluster Mean),£945.14,£4718.91,0.4506,24.75%,Supervised / Clustering
+Lecture 5: Multiple Linear Regression (OLS),£841.91,£4534.21,0.4673,54.98%,Supervised / Clustering
+Lecture 7: Ridge Regression (Regularized OLS),£841.88,£4534.21,0.4673,54.98%,Supervised / Clustering
+Lecture 7: K-Nearest Neighbors (KNN Regressor),£824.00,£4303.60,0.5423,49.85%,Supervised / Clustering
+Frontier SOTA: BG/NBD + Gamma-Gamma (Probabilistic),£642.32,£4190.03,0.5295,58.31%,Generative Stochastic Process

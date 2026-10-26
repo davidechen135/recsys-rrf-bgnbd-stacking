@@ -1,0 +1,9 @@
+Model,Holdout MAE (£),Holdout RMSE (£),Spearman Rank Correlation (ρ),Top-Decile Precision (%),Revenue Capture @ Top 20% Budget (%),Category,Model Paradigm
+Lecture 8: K-Means Segmentation (Cluster Mean),£945.14,£4718.91,0.4506,24.75%,71.17%,Lecture Curriculum Method,Unsupervised Partitioning
+Lecture 5: Multiple Linear Regression (OLS),£841.91,£4534.21,0.4673,54.98%,62.91%,Lecture Curriculum Method,Parametric Linear Regression
+Lecture 7: Ridge Regression (L2 Regularization),£841.88,£4534.21,0.4673,54.98%,62.91%,Lecture Curriculum Method,Regularized Linear Shrinkage
+Lecture 7: K-Nearest Neighbors (KNN Regressor),£824.00,£4303.60,0.5423,49.85%,70.57%,Lecture Curriculum Method,Non-parametric Instance-based
+Advanced ML 1: Random Forest Regressor (100 Trees),£624.72,£3195.25,0.5082,57.10%,71.07%,Advanced Extra-curricular ML,Ensemble Decision Tree Bagging
+Advanced ML 2: Gradient Boosted Trees (GBDT),£745.50,£3766.65,0.4945,53.59%,69.54%,Advanced Extra-curricular ML,Gradient Boosting (Stage-wise Optimization)
+Frontier SOTA: BG/NBD + Gamma-Gamma Probabilistic,£642.32,£4190.03,0.5295,58.31%,64.08%,Frontier SOTA DS / Ad Targeting,Continuous-time Latent Stochastic Process
+Proposed SOTA: Probabilistic-Guided Stacking Ensemble,£593.25,£3760.04,0.5549,59.82%,72.30%,Proposed SOTA Hybrid,Stacking BG/NBD Priors with Gradient Boosting Trees

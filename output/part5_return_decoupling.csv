@@ -1,0 +1,4 @@
+Return_Archetype,Transaction_Lines,Lost_Quantity,Lost_Revenue_GBP,Share_of_Total_Returns,Root_Cause,Operational_Action
+Type I: Instant Checkout Reversals (Administrative / Systemic),2,155210,"£245,653.20",51.61%,Erroneous bulk buyer checkout cancelled within 15-30 minutes (SKU 23843 & 23166),Implement checkout quantity cap and 30-min payment confirmation hold in OMS
+Type II: Chronic Operational & Product Quality Returns,8668,114809,"£230,312.96",48.39%,"Fragile ceramics transit damage, packaging failure, customer expectation mismatch",Re-engineer fragile SKU bubble-wrap packaging (Regency Cakestand) & supplier audit
+Total Combined Return Volume,8670,270019,"£475,966.16",100.00%,Aggregate e-commerce reversals and returns,Dual-track intervention recovering estimated £360k+ in 2012

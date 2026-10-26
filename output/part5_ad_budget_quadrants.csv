@@ -1,0 +1,5 @@
+Ad_Budget_Quadrant,Count,Avg_CLV,Total_CLV,Avg_Recency,Avg_P_Alive,Pct_Cust,Pct_CLV,Recommended_Strategy
+"Q1: Core Champions (High LTV, Active)",744,8101.886053070031,6027803.223484104,16.223118279569892,0.9909172604087679,17.17,69.61,Organic VIP Retention (Dedicated SLA). 15% budget (Zero ad waste).
+"Q2: At-Risk High-LTV (High LTV, Inactive / Churn Risk)",89,4541.578845822707,404200.5172782209,101.1685393258427,0.9405652289819006,2.05,4.67,TOP PRIORITY: Paid Re-engagement & Lookalike Ads. 50% budget (Max Uplift ROI).
+"Q3: Promising Growth (Moderate LTV, Active)",1664,1297.0436840408126,1547373.1150606894,25.920072115384617,0.983935707254196,38.39,17.87,Cross-sell Rec Ads (Item2Vec bundles). 25% budget (Nurture to Q1).
+"Q4: Low-Value Inactive (Low LTV, Inactive)",1837,907.149201049624,680361.900787218,182.6374523679913,0.9404990934386614,42.39,7.86,Ad Suppressed. Automated email win-back only. 10% budget.

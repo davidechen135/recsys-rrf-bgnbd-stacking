@@ -1,0 +1,8 @@
+Model,HitRate@5 (%),HitRate@10 (%),NDCG@10,MRR,Novelty (bits),Catalog Coverage (%),Category,Theoretical Paradigm
+Baseline: Popularity (Top Sellers),3.01%,4.82%,0.0241,0.0168,8.37,0.92%,Heuristic Baseline,Frequency Heuristic (Zero Context)
+Lecture 8: Apriori Association Rules,2.85%,4.49%,0.0240,0.0177,15.86,44.81%,Lecture Curriculum Method,Frequent Pattern Mining (Support & Lift)
+Lecture 8: Hierarchical Clustering (Ward),8.16%,12.29%,0.0702,0.0543,9.91,19.88%,Lecture Curriculum Method,Agglomerative Hierarchical Dendrogram
+Classic Benchmark: ItemCF (Jaccard),11.06%,16.78%,0.0940,0.0716,10.45,54.96%,Classic Industry Benchmark,Neighborhood Collaborative Filtering
+Latent Factor: Matrix Factorization (SVD),8.62%,13.44%,0.0765,0.0591,11.06,60.92%,Linear Latent Factor,Low-Rank Matrix Approximation
+Frontier SOTA: Item2Vec (Neural Skip-Gram),6.84%,9.66%,0.0547,0.0419,13.26,73.33%,Frontier SOTA Deep Learning,Continuous Latent Representation & Dense Retrieval
+Proposed SOTA: Multi-Channel Hybrid Ensemble,12.73%,18.64%,0.1039,0.0787,10.53,58.51%,Proposed SOTA (Multi-Channel RRF),Reciprocal Rank Fusion (ItemCF + SVD + Item2Vec)

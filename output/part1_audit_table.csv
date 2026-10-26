@@ -1,0 +1,9 @@
+column name,missing,Missing %,number of distinct values,minimum,maximum
+InvoiceNo,0,0.00%,"25,900",N.A.,N.A.
+StockCode,0,0.00%,"4,070",N.A.,N.A.
+Description,"1,454",0.27%,"4,223",N.A.,N.A.
+Quantity,0,0.00%,722,-80995.00,80995.00
+InvoiceDate,0,0.00%,"23,260",2010-12-01 08:26:00,2011-12-09 12:50:00
+UnitPrice,0,0.00%,"1,630",-11062.06,38970.00
+CustomerID,"135,080",24.93%,"4,372",12346,18287
+Country,0,0.00%,38,N.A.,N.A.
