@@ -10,6 +10,7 @@
 
 > **Author:** Chen Davide (Student ID: `A0351457B`)  
 > **Affiliation:** Department of Industrial Systems Engineering and Management, National University of Singapore (NUS)  
+> **Email:** `davidechen@u.nus.edu`  
 > **Course:** IE5005 Applied Data Analytics for Industrial Engineers  
 > **Target Executive Role:** Head of E-commerce (2012 Corporate Marketing Budget Allocation)  
 > **Dataset:** Option A — UK Online Retail Transactional Dataset ($N = 541,909$, UCI Machine Learning Repository)  

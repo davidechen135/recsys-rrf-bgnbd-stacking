@@ -2,6 +2,7 @@
 
 **Author:** Chen Davide (Student ID: `A0351457B`)  
 **Affiliation:** Department of Industrial Systems Engineering and Management, National University of Singapore (NUS)  
+**Email:** `davidechen@u.nus.edu`  
 **Coursework:** IE5005 Applied Data Analytics for Industrial Engineers (Option A: UK Online Retail)  
 **Target Executive Role:** Head of E-commerce (Allocating 2012 Annual Marketing & Logistics Capital Budget)  
 **Code & Benchmark:** [https://github.com/davidechen135/recsys-rrf-bgnbd-stacking](https://github.com/davidechen135/recsys-rrf-bgnbd-stacking)  

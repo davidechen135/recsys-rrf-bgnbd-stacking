@@ -368,7 +368,7 @@ def create_paper_pdf():
     # PAGE 1: TITLE, ABSTRACT, TEASER ARCHITECTURE & INTRODUCTORY FRAMEWORK
     # =========================================================================
     story.append(Paragraph("Empirical Customer Value Dynamics and Multi-Channel Recommendation in Transnational E-Commerce: A Benchmark Study and Strategic Framework", title_style))
-    story.append(Paragraph("<b>Chen Davide</b> (Student ID: <code>A0351457B</code>) | <i>National University of Singapore</i> | Email: <code>davide@u.nus.edu</code><br/>"
+    story.append(Paragraph("<b>Chen Davide</b> (Student ID: <code>A0351457B</code>) | <i>National University of Singapore</i> | Email: <code>davidechen@u.nus.edu</code><br/>"
                            "Course: IE5005 Option A | Target: Head of E-commerce | GitHub: <font color='#003399'><u>https://github.com/davidechen135/recsys-rrf-bgnbd-stacking</u></font>", author_style))
     
     story.append(HRFlowable(width="100%", thickness=0.6, color=colors.HexColor("#111111"), spaceBefore=0, spaceAfter=3))
