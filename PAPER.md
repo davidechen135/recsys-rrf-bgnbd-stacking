@@ -4,6 +4,7 @@
 **Affiliation:** Department of Industrial Systems Engineering and Management, National University of Singapore (NUS)  
 **Coursework:** IE5005 Applied Data Analytics for Industrial Engineers (Option A: UK Online Retail)  
 **Target Executive Role:** Head of E-commerce (Allocating 2012 Annual Marketing & Logistics Capital Budget)  
+**Code & Benchmark:** [https://github.com/davidechen135/recsys-rrf-bgnbd-stacking](https://github.com/davidechen135/recsys-rrf-bgnbd-stacking)  
 **Paper Format:** Top-Tier Conference Specification (ACM SIGKDD / RecSys Standards, 8-Page Formatted PDF)
 
 ---
@@ -255,8 +256,8 @@ We have presented an empirical analytics study and strategic decision framework 
 
 ---
 
-## Acknowledgments
-The author expresses sincere gratitude to the faculty and teaching team of IE5005 Applied Data Analytics for Industrial Engineers at the National University of Singapore (NUS) for foundational instruction in analytical methodologies and statistical learning theory.
+## Acknowledgments & Code Availability
+The author expresses sincere gratitude to the faculty and teaching team of IE5005 Applied Data Analytics for Industrial Engineers at the National University of Singapore (NUS) for foundational instruction in analytical methodologies and statistical learning theory. The complete reproducible pipeline, audited datasets, and benchmarks are open-sourced at [https://github.com/davidechen135/recsys-rrf-bgnbd-stacking](https://github.com/davidechen135/recsys-rrf-bgnbd-stacking).
 
 ---
 

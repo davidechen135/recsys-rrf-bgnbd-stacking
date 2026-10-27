@@ -368,8 +368,8 @@ def create_paper_pdf():
     # PAGE 1: TITLE, ABSTRACT, TEASER ARCHITECTURE & INTRODUCTORY FRAMEWORK
     # =========================================================================
     story.append(Paragraph("Empirical Customer Value Dynamics and Multi-Channel Recommendation in Transnational E-Commerce: A Benchmark Study and Strategic Framework", title_style))
-    story.append(Paragraph("<b>Chen Davide</b> (Student ID: <code>A0351457B</code>) | <i>Department of Industrial Systems Engineering and Management, National University of Singapore</i><br/>"
-                           "Email: <code>davide@u.nus.edu</code> | Course: IE5005 Applied Data Analytics | Target Role: Head of E-commerce", author_style))
+    story.append(Paragraph("<b>Chen Davide</b> (Student ID: <code>A0351457B</code>) | <i>National University of Singapore</i> | Email: <code>davide@u.nus.edu</code><br/>"
+                           "Course: IE5005 Option A | Target: Head of E-commerce | GitHub: <font color='#003399'><u>https://github.com/davidechen135/recsys-rrf-bgnbd-stacking</u></font>", author_style))
     
     story.append(HRFlowable(width="100%", thickness=0.6, color=colors.HexColor("#111111"), spaceBefore=0, spaceAfter=3))
     
@@ -888,10 +888,12 @@ def create_paper_pdf():
             "Future work will explore graph neural networks (GNNs) for multi-session basket graph propagation and causal uplift modeling for incremental ad spend optimization.",
             col_style
         ),
-        Paragraph("ACKNOWLEDGMENTS", h1_col),
+        Paragraph("ACKNOWLEDGMENTS & CODE AVAILABILITY", h1_col),
         Paragraph(
             "The author expresses sincere gratitude to the faculty and teaching team of IE5005 Applied Data Analytics for Industrial Engineers at the National University of Singapore (NUS) "
-            "for foundational instruction in analytical methodologies and statistical learning theory.",
+            "for foundational instruction in analytical methodologies and statistical learning theory.<br/>"
+            "• <b>Code & Data Repository:</b> The complete end-to-end reproducible pipeline, audited datasets, and benchmarks are open-sourced at: "
+            "<font color='#003399'><u>https://github.com/davidechen135/recsys-rrf-bgnbd-stacking</u></font>",
             col_style
         ),
     ]
